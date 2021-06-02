@@ -81,16 +81,33 @@
 
   .text {
     display: flex;
+    flex-direction: row;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 2em;
     color: #fff;
     background-color: #000;
+    padding: 1em 0;
   }
 
   .text div {
     padding: 2em;
   }
+
+  @media (max-width: 800px) {
+  .text {
+    flex-direction: column;
+    font-size: 1em;
+    /* padding: 1em 0; */
+  }
+
+  .text div {
+    padding: 1em;
+  }
+}
+
+
+  
 
   footer {
     display: flex;
