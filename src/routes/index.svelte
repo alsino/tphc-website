@@ -42,7 +42,9 @@
 </div>
 
 <div class="text">
+  
   <div>
+    <h2>Mapping the Post-Human City</h2><br><br>
     Theoretiker*innen wie Donna Haraway und Anna Lowenhaupt Tsing entwickelten in den letzten Jahrzehnten ein neues Bewusstsein dafür, dass der Mensch sich nur in interaktiven Beziehungen zu anderen Spezies entwickeln konnte. Diese Perspektive macht neue Politik- und Subjektvorstellungen jenseits des neoliberalen Individualismus denkbar. Doch was das für die Frage des städtischen Raums bedeuten könnte, wurde bisher nur wenig reflektiert. Um diese Blickverschiebung anzustoßen, erzeugt Mapping the Post-Human City neue Visualisierungen für eine Stadt, in der nicht-menschlichen Lebensformen eine bedeutende Rolle zugesprochen wird und ein solidarisches Zusammenleben möglich wird. 
   <br><br> 
   In einer umfassenden Kartierung wird die Präsenz nicht-menschlicher Spezies im Berliner Stadtraum untersucht und sichtbar gemacht. Aus unterschiedlichen Datenquellen werden Karten generiert, die insbesondere auf neue Beziehungsmuster zwischen Mensch und Tieren hindeuten, jenseits von klassischem Naturschutzdenken und der Antithese von Stadt und Land. Kernfragen sind: Wie bedingen sich Stadt und Natur gegenseitig? Welche von Menschen erschaffenen städtischen Infrastrukturen bieten neue Lebensräume für Tiere? Quellen sind eigene Recherchen, aber auch die Naturblick App (Museum für Naturkunde), öffentliche Geoinformationsportale und naturwissenschaftliche Monitorings.
