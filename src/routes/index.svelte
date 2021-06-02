@@ -29,20 +29,26 @@
 
 <div class="videoWrapper">
 
-  <iframe 
+  <video width="100%" controls>
+    <source src="vid.mp4" type="video/mp4">
+    <!-- <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag. -->
+  </video>
+
+  <!-- <iframe 
     src="https://player.vimeo.com/video/554946488" 
     width="640" 
     height="360" 
     frameborder="0" 
     allow="autoplay; fullscreen; picture-in-picture" 
     allowfullscreen>
-</iframe>
+</iframe> -->
 
 </div>
 
 <div class="text">
-  <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br> Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic!</div>
-  <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br>Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic!</div>
+  <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic! <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic!</div>
+  <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic! <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic!</div>
 </div>
 
 <!-- <footer>
@@ -64,6 +70,11 @@
     background-color: #000;
   }
 
+  video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
   
   .videoWrapper {
     position: relative;
@@ -84,7 +95,7 @@
     flex-direction: row;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
     background-color: #000;
     padding: 1em 0;
