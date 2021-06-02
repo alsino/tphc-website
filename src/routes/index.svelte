@@ -77,24 +77,24 @@
 
 @font-face {
     font-family: 'Tactic';
-    src: url('Tactic-Italic.eot');
-    src: url('Tactic-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Tactic-Italic.woff2') format('woff2'),
-        url('Tactic-Italic.woff') format('woff'),
-        url('Tactic-Italic.ttf') format('truetype'),
-        url('Tactic-Italic.svg#Tactic-Italic') format('svg');
+    src: url('fonts/Tactic-Italic.eot');
+    src: url('fonts/Tactic-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Tactic-Italic.woff2') format('woff2'),
+        url('fonts/Tactic-Italic.woff') format('woff'),
+        url('fonts/Tactic-Italic.ttf') format('truetype'),
+        url('fonts/Tactic-Italic.svg#Tactic-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Tactic';
-    src: url('Tactic-Regular.eot');
-    src: url('Tactic-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Tactic-Regular.woff2') format('woff2'),
-        url('Tactic-Regular.woff') format('woff'),
-        url('Tactic-Regular.ttf') format('truetype'),
-        url('Tactic-Regular.svg#Tactic-Regular') format('svg');
+    src: url('fonts/Tactic-Regular.eot');
+    src: url('fonts/Tactic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Tactic-Regular.woff2') format('woff2'),
+        url('fonts/Tactic-Regular.woff') format('woff'),
+        url('fonts/Tactic-Regular.ttf') format('truetype'),
+        url('fonts/Tactic-Regular.svg#Tactic-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -103,6 +103,8 @@
     margin: 0;
     padding: 0;
     font-family: "Tactic";
+    font-weight: normal; 
+    font-style: normal;
   }
 
   header{
