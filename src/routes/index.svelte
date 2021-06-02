@@ -3,7 +3,7 @@
   let x, y;
 
   onMount(async () => {
-		console.log(x, y)
+		// console.log(x, y)
 	});
   
 </script>
@@ -12,7 +12,6 @@
 <svelte:window bind:innerWidth={x} bind:innerHeight={y}/>
 
 <header>
-  <!-- <img src="https://via.placeholder.com/1440" alt=""> -->
   <img src="hero-1440.webp" 
        srcset="hero-780.webp 780w,
                hero-1024.webp 1024w,
@@ -22,8 +21,6 @@
        alt="Mapping the post-human city logo"
        >
 
-   
-       <!-- <img src="https://www.mediaevent.de/html/img/needles-1440.jpg" > -->
 </header>
 
 
@@ -49,11 +46,18 @@
   <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic! <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cum, debitis dolore repellendus dolorem quos pariatur voluptas itaque voluptate doloribus labore tempora voluptatem reprehenderit quam non quibusdam fugiat laudantium quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum vitae officia a aspernatur pariatur perferendis! Id tempore minima nulla commodi adipisci quas nesciunt consequatur quae, perferendis labore alias hic!</div>
 </div>
 
-<!-- <footer>
-  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatibus odit facilis delectus, consequatur culpa officia dolor laborum cumque, perferendis iste molestiae dolorem doloribus quos aliquid sint ea, modi molestias?</div>
-  <img src="https://via.placeholder.com/150" alt="">
+<footer>
 
-</footer> -->
+  <div class="credits">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatibus odit facilis delectus, consequatur culpa officia dolor laborum cumque, perferendis iste molestiae dolorem doloribus quos aliquid sint ea, modi molestias?
+  </div>
+
+  <div class="logos">
+    <div><img src="arch+_logo-200.png" alt=""></div>
+    <div><img src="mfn-logo-200-white.png" alt=""></div>
+  </div>
+
+</footer>
 
 
 <style>
@@ -69,9 +73,9 @@
   }
 
   video {
-  width: 100%    !important;
-  height: auto   !important;
-}
+    width: 100%    !important;
+    height: auto   !important;
+  }
 
   
   .videoWrapper {
@@ -116,11 +120,31 @@
 }
 
 
-  
 
   footer {
     display: flex;
+    background: rgb(0, 0, 0);
+    /* padding: 2em; */
+  }
 
+  footer div {
+    flex: 1;
+    padding: 2em;
+    /* padding: 0 2em 1em 2em; */
+  }
+
+  .credits {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
   }
 
 
