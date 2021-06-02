@@ -53,8 +53,21 @@
   </div>
 
   <div class="logos">
-    <div><img src="arch+_logo-200.png" alt=""></div>
-    <div><img src="mfn-logo-200-white.png" alt=""></div>
+    <div>
+      <img src="arch+_logo-200.png" 
+          srcset="arch+_logo-150.png 780w,
+                  arch+_logo-200.png 1024w"
+      alt="">
+    </div>
+
+    <div>
+      <img src="mfn-logo-200-white.png" 
+            srcset="mfn-logo-150-white.png 780w,
+                    mfn-logo-200-white.png 1024w"
+      
+      alt="">
+    </div>
+
   </div>
 
 </footer>
@@ -107,9 +120,6 @@
     padding: 2em;
   }
 
- 
-
-
 
   footer {
     display: flex;
@@ -157,9 +167,9 @@
     padding: 1em;
   }
 
-  .logos {
+  /* .logos {
     flex-direction: column;
-  }
+  } */
 
 
 }
