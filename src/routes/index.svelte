@@ -29,20 +29,18 @@
 
 <div class="videoWrapper">
 
-  <video width="100%" controls>
-    <source src="vid.mp4" type="video/mp4">
-    <!-- <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag. -->
-  </video>
+  <!-- <video width="100%" controls>
+    <source src="output.mp4" type="video/mp4">
+  </video> -->
 
-  <!-- <iframe 
+  <iframe 
     src="https://player.vimeo.com/video/554946488" 
     width="640" 
     height="360" 
     frameborder="0" 
     allow="autoplay; fullscreen; picture-in-picture" 
     allowfullscreen>
-</iframe> -->
+</iframe>
 
 </div>
 
