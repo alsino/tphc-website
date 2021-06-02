@@ -75,10 +75,28 @@
 
 <style>
 
+  @font-face {
+      font-family: 'Tactic';
+      src: url('Tactic-Regular.woff2') format('woff2'),
+          url('Tactic-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Tactic';
+      src: url('Tactic-Italic.woff2') format('woff2'),
+          url('Tactic-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+  }
 
   :global(body){
     margin: 0;
     padding: 0;
+    font-family: "Tactic";
   }
 
   header{
@@ -108,7 +126,6 @@
   .text {
     display: flex;
     flex-direction: row;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     color: #fff;
@@ -134,7 +151,6 @@
   }
 
   .credits {
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1em;
     color: #fff;
