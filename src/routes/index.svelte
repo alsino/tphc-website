@@ -107,30 +107,19 @@
     padding: 2em;
   }
 
-  @media (max-width: 800px) {
-  .text {
-    flex-direction: column;
-    font-size: 1em;
-    /* padding: 1em 0; */
-  }
-
-  .text div {
-    padding: 1em;
-  }
-}
+ 
 
 
 
   footer {
     display: flex;
+    flex-direction: row;
     background: rgb(0, 0, 0);
-    /* padding: 2em; */
   }
 
   footer div {
     flex: 1;
     padding: 2em;
-    /* padding: 0 2em 1em 2em; */
   }
 
   .credits {
@@ -144,8 +133,36 @@
 
   .logos {
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
+
+
+  @media (max-width: 800px) {
+
+  .text {
+    flex-direction: column;
+    font-size: 1em;
+  }
+
+  .text div {
+    padding: 1em;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer div {
+    padding: 1em;
+  }
+
+  .logos {
+    flex-direction: column;
+  }
+
+
+}
 
 
 </style>
