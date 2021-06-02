@@ -54,16 +54,16 @@
 
   <div class="logos">
     <div>
-      <img src="arch+_logo-200.png" 
-          srcset="arch+_logo-150.png 780w,
-                  arch+_logo-200.png 1024w"
+      <img src="arch+_logo-150.png" 
+          srcset="arch+_logo-150.png 1x,
+                  arch+_logo-150@2x.png 2x"
       alt="">
     </div>
 
     <div>
-      <img src="mfn-logo-200-white.png" 
-            srcset="mfn-logo-150-white.png 780w,
-                    mfn-logo-200-white.png 1024w"
+      <img src="mfn-logo-150-white.png" 
+            srcset="mfn-logo-150-white.png 1x,
+                    mfn-logo-150-white@2x.png 2x"
       
       alt="">
     </div>
@@ -125,6 +125,7 @@
     display: flex;
     flex-direction: row;
     background: rgb(0, 0, 0);
+    padding-bottom: 2em;
   }
 
   footer div {
