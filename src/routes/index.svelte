@@ -75,34 +75,11 @@
 
 <style>
 
-@font-face {
-    font-family: 'Tactic';
-    src: url('fonts/Tactic-Italic.eot');
-    src: url('fonts/Tactic-Italic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Tactic-Italic.woff2') format('woff2'),
-        url('fonts/Tactic-Italic.woff') format('woff'),
-        url('fonts/Tactic-Italic.ttf') format('truetype'),
-        url('fonts/Tactic-Italic.svg#Tactic-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Tactic';
-    src: url('fonts/Tactic-Regular.eot');
-    src: url('fonts/Tactic-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Tactic-Regular.woff2') format('woff2'),
-        url('fonts/Tactic-Regular.woff') format('woff'),
-        url('fonts/Tactic-Regular.ttf') format('truetype'),
-        url('fonts/Tactic-Regular.svg#Tactic-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
   :global(body){
     margin: 0;
     padding: 0;
-    font-family: "Tactic";
+    font-family: "tacticregular";
     font-weight: normal; 
     font-style: normal;
   }
