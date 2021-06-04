@@ -52,9 +52,9 @@
   <div>
     Neben diesen Kartierungen helfen Videos die nicht-menschlichen Spezies als städtische Akteure ins Bewusstsein zu rücken. Neuronale Netze generieren Videos aus bestehenden Citizen Science-Datenarchiven, um eine visuelle Bestandsaufname städtischer Natur zu generieren. Die Videos funktionieren als eine Art virtuelles Gedächtnis punktuell ausgewählter Orte der Berliner Stadtnatur. Anhand dieser Videos wird aufgezeigt, wie algorithmische Netzwerke die Natur ›sehen‹, aber dabei auch neue Realitäten kreieren. Die Videos testen die realitätsbildenden Effekte der KI und den Einsatz als künstlerisches Werkzeug, um die wachsenden Datenarchive von Citizen-Science-Projekten experimentell auszuwerten und sichtbar zu machen.
     <br><br> 
-    Für <span class="italic">Mapping the Post-Human City</span> kreiert <span class="italic">Pollinations in Blatant Space</span> aus dem Tierstimmenarchiv des Museums für Naturkunde eine durch maschine-learning-generierte Klanginstallation, die mit den Videos und Karten korrespondiert und von diesen mit Hilfe von Cycle-GANs lernt.
+    Für <span class="italic">Mapping the Post-Human City</span> kreiert <span class="italic">Pollinations in Blatant Space</span> aus dem Tierstimmenarchiv des Museums für Naturkunde eine durch machine learning generierte Klanginstallation, die mit den Videos und Karten korrespondiert und von diesen mit Hilfe von Cycle-GANs lernt.
     <br><br>
-    Zu sehen ist die Arbeit in der von ARCH+ mitinitiierten Ausstellung »Cohabitation: Ein Manifest für Solidarität von Tieren und Menschen im Stadtraum«, im silent green Kulturquartier Berlin, Gerichtstraße 35, 13347 Berlin vom 5. Juni bis 4. Juli 2021.
+    Zu sehen ist die Arbeit in der von ARCH+ mitinitiierten Ausstellung <a target="_blank" href="https://archplus.net/de/cohabitation/">»Cohabitation: Ein Manifest für Solidarität von Tieren und Menschen im Stadtraum«</a>, im silent green Kulturquartier Berlin, Gerichtstraße 35, 13347 Berlin vom 5. Juni bis 4. Juli 2021.
     <br><br> 
     Die Arbeit ist in enger Kooperation mit dem Naturkundemuseum Berlin realisiert.
   </div>
@@ -63,8 +63,8 @@
 <footer>
 
   <div class="credits">
-    <span class="italic">Mapping the Post-Human City, 2021</span><br>
-    Moritz Ahlert & Alsino Skowronnek, 4-Kanal-Videoinstallation, 8 min,
+    <h4 class="italic">Mapping the Post-Human City, 2021</h4><br>
+    <a target="_blank" href="https://www.moritzahlert.de/">Moritz Ahlert</a> & <a target="_blank" href="https://alsino.io">Alsino Skowronnek</a>, 4-Kanal-Videoinstallation, 8 min,
     in Kollaboration mit <span class="italic">Pollinations in Blatant Space</span> (Thomas Haferlach, Adrien Bitton & Niels Warnecke), Sound 8 min
     Mit Unterstützung von: Gareth Davies (Übersetzung), Max Pfeffer (Assistenz – Ausstellungsarchitektur), Marie Schuster – Bureau Est (Logo), Ludwig Thanhäuser (Assistenz – Karten), Anna-Lena Wenzel (Lektorat).
   </div>
@@ -116,6 +116,11 @@
 
   h2 {
     margin: 0 0 1em 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
   }
 
   
