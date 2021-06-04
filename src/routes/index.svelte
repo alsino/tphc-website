@@ -198,7 +198,7 @@
   }
 
   h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 1em 0;
   }
 
