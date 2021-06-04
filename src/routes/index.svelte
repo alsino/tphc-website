@@ -103,6 +103,10 @@
     font-style: normal;
   }
 
+  :global(#svelte){
+    overflow: hidden;
+  }
+
   header{
     background-color: #000;
   }
