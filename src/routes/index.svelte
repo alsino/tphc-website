@@ -192,6 +192,10 @@
     padding: 1em;
   }
 
+  h2 {
+    font-size: 2em;
+  }
+
   /* .logos {
     flex-direction: column;
   } */
