@@ -63,7 +63,7 @@
 <footer>
 
   <div class="credits">
-    Mapping the Post-Human City, 2021 <br>
+    <span class="italic">Mapping the Post-Human City, 2021</span><br>
     Moritz Ahlert & Alsino Skowronnek, 4-Kanal-Videoinstallation, 8 min,
     in Kollaboration mit <span class="italic">Pollinations in Blatant Space</span> (Thomas Haferlach, Adrien Bitton & Niels Warnecke), Sound 8 min
     Mit Unterstützung von: Gareth Davies (Übersetzung), Max Pfeffer (Assistenz – Ausstellungsarchitektur), Marie Schuster – Bureau Est (Logo), Ludwig Thanhäuser (Assistenz – Karten), Anna-Lena Wenzel (Lektorat).
@@ -157,7 +157,7 @@
 
   footer div {
     flex: 1;
-    padding: 2em;
+    padding: 3em;
   }
 
   .credits {
