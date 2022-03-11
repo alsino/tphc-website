@@ -297,10 +297,19 @@
 		.text {
 			flex-direction: column;
 			font-size: 1em;
+			padding-top: 0;
 		}
 
 		.text div {
 			padding: 1em;
+		}
+
+		.switch {
+			font-size: 1em;
+		}
+
+		.switch div {
+			padding: 0.5em 1em;
 		}
 
 		footer {
