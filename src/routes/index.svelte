@@ -24,15 +24,6 @@
 	<!-- <video width="100%" controls>
     <source src="output.mp4" type="video/mp4">
   </video> -->
-	<!-- 
-	<iframe
-		src="https://player.vimeo.com/video/559885298?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-		frameborder="0"
-		allow="autoplay; fullscreen; picture-in-picture"
-		allowfullscreen
-		style="position:absolute;top:0;left:0;width:100%;height:100%;"
-		title="2_Mapping the Post-Human City - Moritz Ahlert &amp;amp; Alsino Skowronnek"
-	/> -->
 
 	<iframe
 		src="https://player.vimeo.com/video/687072699?h=bd94c07404&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
