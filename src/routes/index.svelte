@@ -100,6 +100,8 @@
 		min, in Kollaboration mit <span class="italic">Pollinations in Blatant Space</span> (Thomas Haferlach),
 		Sound 8 min Mit Unterstützung von: Gareth Davies (Übersetzung), Max Pfeffer (Assistenz – Ausstellungsarchitektur),
 		Marie Schuster – Bureau Est (Logo), Ludwig Thanhäuser (Assistenz – Karten), Anna-Lena Wenzel (Lektorat).
+		<br>
+		Fotos: © Alsino Skowronnek & Dotgain.Info, 2021.
 	</div>
 
 	<div class="logos">
@@ -146,12 +148,58 @@
 	</div>
 </div>
 
+
+<div class="text space-around">
+
+		<div>
+			<img
+				src="/img/1.jpg"
+				srcset="/img/1.jpg 1x, /img/1@2x.jpg 2x"
+				alt="Bild 1"
+				/>
+		</div>
+	
+		<div>
+			<img
+			src="/img/2.jpg"
+			srcset="/img/2.jpg 1x, /img/2@2x.jpg 2x"
+			alt="Bild 2"
+			/>
+	</div>
+
+</div>
+
+<div class="text space-around">
+
+	<div>
+		<img
+		src="/img/3.jpg"
+		srcset="/img/3.jpg 1x, /img/3@2x.jpg 2x"
+		alt="Bild 3"
+		/>
+	</div>
+
+	<div>
+		<img
+		src="/img/4.jpg"
+		srcset="/img/4.jpg 1x, /img/4@2x.jpg 2x"
+		alt="Bild 4"
+		/>
+	</div>
+
+</div>
+
+
+
+
 <footer>
 <div class="credits">
 	<h4 class="italic">Mapping the Post-Human City, 2021</h4>
 	<br />
 	<a target="_blank" href="https://www.moritzahlert.de/">Moritz Ahlert</a> &
 	<a target="_blank" href="https://alsino.io">Alsino Skowronnek</a>, 4-channel video installation, 8 min, in collaboration with Pollinations in Blatant Space (Thomas Haferlach, sound). With the support of: Gareth Davies (translation), Max Pfeffer (assistance - exhibition design), Marie Schuster – Bureau Est (Logo design), Ludwig Thanhäuser (Assistant – Maps), Anna-Lena Wenzel (Editing).
+	<br>
+	Photo credits: © Alsino Skowronnek & Dotgain.Info, 2021.
 </div>
 
 <div class="logos">
@@ -173,6 +221,7 @@
 		/>
 	</div>
 </div>
+
 </footer>
 {/if}
 
@@ -193,15 +242,6 @@
 		background-color: #000;
 	}
 
-	video {
-		width: 100% !important;
-		height: auto !important;
-	}
-
-	button{
-		color: white;
-	}
-
 	h2 {
 		margin: 0 0 1em 0;
 	}
@@ -210,6 +250,12 @@
 		color: #fff;
 		text-decoration: underline;
 	}
+
+	img {
+		width: 100%;
+  	height: auto;
+	}
+
 
 	.videoWrapper {
 		position: relative;
@@ -251,6 +297,10 @@
 
 	.switch div {
 		padding: 1em 2em;
+	}
+
+	.space-around {
+		justify-content: space-around;
 	}
 
 	
