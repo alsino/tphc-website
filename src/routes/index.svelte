@@ -41,8 +41,8 @@
 
 
 <div class="switch" >
-	<div class="pointer" class:active={lang == "en"} on:click={() => { lang = "en"}}>english</div>
-	<div class="pointer" class:active={lang == "de"} on:click={() => { lang = "de"}}>german</div>
+	<div class="pointer" class:active={lang == "en"} on:click={() => { lang = "en"}}>en</div>
+	<div class="pointer" class:active={lang == "de"} on:click={() => { lang = "de"}}>de</div>
 </div>
 
 {#if lang === 'de'}
